@@ -1,4 +1,4 @@
-# The cp15_auxiliary_files repository
+# CheckPoint 15
 
 ## Description
 
