@@ -33,7 +33,7 @@ ros2 control list_hardware_interfaces --controller-manager /rb1_robot/controller
 ### Move robot 
 - To move the robot position
 ```
-ros2 topic pub --rate 10 /rb1_robot/diffbot_base_controller/cmd_vel_unstamped geometry_msgs/msg/Twist "{linear: {x: 0.1, y: 0, z: 0.0}, angular: {x: 0.0,y: 0.0, z: 0.0}}"
+ros2 topic pub --rate 10 /rb1_robot/diffbot_base_controller/cmd_vel_unstamped geometry_msgs/msg/Twist "{linear: {x: 0.5, y: 0, z: 0.0}, angular: {x: 0.0,y: 0.0, z: 0.0}}"
 ```
 - To lift the elevator
 ```
